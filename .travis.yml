@@ -1,6 +1,7 @@
 language: java
 jdk:
   -oraclejdk11
+script : ant build
 deploy:
   - provider: s3
     access_key_id: $aws_acc_key
