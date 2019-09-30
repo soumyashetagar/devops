@@ -7,7 +7,7 @@ deploy:
   - provider: s3
     access_key_id: $aws_access
     secret_access_key : $aws_acc_key
-    bucket: 'deploying'
+    bucket: 'deploying123'
     skip_cleanup: true
   
   
